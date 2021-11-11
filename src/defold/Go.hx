@@ -396,250 +396,250 @@ abstract GoAnimatedProperty(Dynamic)
     Game object easing constants.
 **/
 @:native("_G.go")
-@:enum extern abstract GoEasing(Int) {
+@:enum abstract GoEasing(Int) {
     /**
-        In-back.
+        Linear interpolation.
     **/
-    var EASING_INBACK;
-
-    /**
-        In-bounce.
-    **/
-    var EASING_INBOUNCE;
-
-    /**
-        In-circlic.
-    **/
-    var EASING_INCIRC;
-
-    /**
-        In-cubic.
-    **/
-    var EASING_INCUBIC;
-
-    /**
-        In-elastic.
-    **/
-    var EASING_INELASTIC;
-
-    /**
-        In-exponential.
-    **/
-    var EASING_INEXPO;
-
-    /**
-        In-out-back.
-    **/
-    var EASING_INOUTBACK;
-
-    /**
-        In-out-bounce.
-    **/
-    var EASING_INOUTBOUNCE;
-
-    /**
-        In-out-circlic.
-    **/
-    var EASING_INOUTCIRC;
-
-    /**
-        In-out-cubic.
-    **/
-    var EASING_INOUTCUBIC;
-
-    /**
-        In-out-elastic.
-    **/
-    var EASING_INOUTELASTIC;
-
-    /**
-        In-out-exponential.
-    **/
-    var EASING_INOUTEXPO;
-
-    /**
-        In-out-quadratic.
-    **/
-    var EASING_INOUTQUAD;
-
-    /**
-        In-out-quartic.
-    **/
-    var EASING_INOUTQUART;
-
-    /**
-        In-out-quintic.
-    **/
-    var EASING_INOUTQUINT;
-
-    /**
-        In-out-sine.
-    **/
-    var EASING_INOUTSINE;
+    var EASING_LINEAR = 0;
 
     /**
         In-quadratic.
     **/
-    var EASING_INQUAD;
-
-    /**
-        In-quartic.
-    **/
-    var EASING_INQUART;
-
-    /**
-        In-quintic.
-    **/
-    var EASING_INQUINT;
-
-    /**
-        In-sine.
-    **/
-    var EASING_INSINE;
-
-    /**
-        Linear interpolation.
-    **/
-    var EASING_LINEAR;
-
-    /**
-        Out-back.
-    **/
-    var EASING_OUTBACK;
-
-    /**
-        Out-bounce.
-    **/
-    var EASING_OUTBOUNCE;
-
-    /**
-        Out-circlic.
-    **/
-    var EASING_OUTCIRC;
-
-    /**
-        Out-cubic.
-    **/
-    var EASING_OUTCUBIC;
-
-    /**
-        Out-elastic.
-    **/
-    var EASING_OUTELASTIC;
-
-    /**
-        Out-exponential.
-    **/
-    var EASING_OUTEXPO;
-
-    /**
-        Out-in-back.
-    **/
-    var EASING_OUTINBACK;
-
-    /**
-        Out-in-bounce.
-    **/
-    var EASING_OUTINBOUNCE;
-
-    /**
-        Out-in-circlic.
-    **/
-    var EASING_OUTINCIRC;
-
-    /**
-        Out-in-cubic.
-    **/
-    var EASING_OUTINCUBIC;
-
-    /**
-        Out-in-elastic.
-    **/
-    var EASING_OUTINELASTIC;
-
-    /**
-        Out-in-exponential.
-    **/
-    var EASING_OUTINEXPO;
-
-    /**
-        Out-in-quadratic.
-    **/
-    var EASING_OUTINQUAD;
-
-    /**
-        Out-in-quartic.
-    **/
-    var EASING_OUTINQUART;
-
-    /**
-        Out-in-quintic.
-    **/
-    var EASING_OUTINQUINT;
-
-    /**
-        Out-in-sine.
-    **/
-    var EASING_OUTINSINE;
+    var EASING_INQUAD = 1;
 
     /**
         Out-quadratic.
     **/
-    var EASING_OUTQUAD;
+    var EASING_OUTQUAD = 2;
+
+    /**
+        In-out-quadratic.
+    **/
+    var EASING_INOUTQUAD = 3;
+
+    /**
+        Out-in-quadratic.
+    **/
+    var EASING_OUTINQUAD = 4;
+
+    /**
+        In-cubic.
+    **/
+    var EASING_INCUBIC = 5;
+
+    /**
+        Out-cubic.
+    **/
+    var EASING_OUTCUBIC = 6;
+
+    /**
+        In-out-cubic.
+    **/
+    var EASING_INOUTCUBIC = 7;
+
+    /**
+        Out-in-cubic.
+    **/
+    var EASING_OUTINCUBIC = 8;
+
+    /**
+        In-quartic.
+    **/
+    var EASING_INQUART = 9;
 
     /**
         Out-quartic.
     **/
-    var EASING_OUTQUART;
+    var EASING_OUTQUART = 10;
+
+    /**
+        In-out-quartic.
+    **/
+    var EASING_INOUTQUART = 11;
+
+    /**
+        Out-in-quartic.
+    **/
+    var EASING_OUTINQUART = 12;
+
+    /**
+        In-quintic.
+    **/
+    var EASING_INQUINT = 13;
 
     /**
         Out-quintic.
     **/
-    var EASING_OUTQUINT;
+    var EASING_OUTQUINT = 14;
+
+    /**
+        In-out-quintic.
+    **/
+    var EASING_INOUTQUINT = 15;
+
+    /**
+        Out-in-quintic.
+    **/
+    var EASING_OUTINQUINT = 16;
+
+    /**
+        In-sine.
+    **/
+    var EASING_INSINE = 17;
 
     /**
         Out-sine.
     **/
-    var EASING_OUTSINE;
+    var EASING_OUTSINE = 18;
+
+    /**
+        In-out-sine.
+    **/
+    var EASING_INOUTSINE = 19;
+
+    /**
+        Out-in-sine.
+    **/
+    var EASING_OUTINSINE = 20;
+
+    /**
+        In-exponential.
+    **/
+    var EASING_INEXPO = 21;
+
+    /**
+        Out-exponential.
+    **/
+    var EASING_OUTEXPO = 22;
+
+    /**
+        In-out-exponential.
+    **/
+    var EASING_INOUTEXPO = 23;
+
+    /**
+        Out-in-exponential.
+    **/
+    var EASING_OUTINEXPO = 24;
+
+    /**
+        In-circlic.
+    **/
+    var EASING_INCIRC = 25;
+
+    /**
+        Out-circlic.
+    **/
+    var EASING_OUTCIRC = 26;
+
+    /**
+        In-out-circlic.
+    **/
+    var EASING_INOUTCIRC = 27;
+
+    /**
+        Out-in-circlic.
+    **/
+    var EASING_OUTINCIRC = 28;
+
+    /**
+        In-elastic.
+    **/
+    var EASING_INELASTIC = 29;
+
+    /**
+        Out-elastic.
+    **/
+    var EASING_OUTELASTIC = 30;
+
+    /**
+        In-out-elastic.
+    **/
+    var EASING_INOUTELASTIC = 31;
+
+    /**
+        Out-in-elastic.
+    **/
+    var EASING_OUTINELASTIC = 32;
+
+    /**
+        In-back.
+    **/
+    var EASING_INBACK = 33;
+
+    /**
+        Out-back.
+    **/
+    var EASING_OUTBACK = 34;
+
+    /**
+        In-out-back.
+    **/
+    var EASING_INOUTBACK = 35;
+
+    /**
+        Out-in-back.
+    **/
+    var EASING_OUTINBACK = 36;
+
+    /**
+        In-bounce.
+    **/
+    var EASING_INBOUNCE = 37;
+
+    /**
+        Out-bounce.
+    **/
+    var EASING_OUTBOUNCE = 38;
+
+    /**
+        In-out-bounce.
+    **/
+    var EASING_INOUTBOUNCE = 39;
+
+    /**
+        Out-in-bounce.
+    **/
+    var EASING_OUTINBOUNCE = 40;
 }
 
 /**
     Game object playback constants.
 **/
 @:native("_G.go")
-@:enum extern abstract GoPlayback(Int) {
-    /**
-        Loop backward.
-    **/
-    var PLAYBACK_LOOP_BACKWARD;
-
-    /**
-        Loop forward.
-    **/
-    var PLAYBACK_LOOP_FORWARD;
-
-    /**
-        Ping pong loop.
-    **/
-    var PLAYBACK_LOOP_PINGPONG;
-
+@:enum abstract GoPlayback(Int) {
     /**
         No playback.
     **/
-    var PLAYBACK_NONE;
-
-    /**
-        Once backward.
-    **/
-    var PLAYBACK_ONCE_BACKWARD;
+    var PLAYBACK_NONE = 0;
 
     /**
         Once forward.
     **/
-    var PLAYBACK_ONCE_FORWARD;
+    var PLAYBACK_ONCE_FORWARD = 1;
+
+    /**
+        Once backward.
+    **/
+    var PLAYBACK_ONCE_BACKWARD = 2;
 
     /**
         Once ping pong.
     **/
-    var PLAYBACK_ONCE_PINGPONG;
+    var PLAYBACK_ONCE_PINGPONG = 3;
+
+    /**
+        Loop forward.
+    **/
+    var PLAYBACK_LOOP_FORWARD = 4;
+
+    /**
+        Loop backward.
+    **/
+    var PLAYBACK_LOOP_BACKWARD = 5;
+
+    /**
+        Ping pong loop.
+    **/
+    var PLAYBACK_LOOP_PINGPONG = 6;
 }
