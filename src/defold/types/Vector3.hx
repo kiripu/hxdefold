@@ -4,7 +4,7 @@ package defold.types;
     Vector3 type, can be created with `defold.Vmath.vector3`.
 **/
 @:forward
-extern abstract Vector3(Vector3Data) {
+abstract Vector3(Vector3Data) {
     @:op(a + b)
     private static inline function add(a:Vector3, b:Vector3):Vector3 {
         return untyped __lua__("({0}) + ({1})", a, b);
